@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="apptheme_color">#ef9f28</color>
+    <color name="apptheme_color1">#ff9888</color>
+    <color name="apptheme_color2">#f3b293</color>
+
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#512da8</color>
+    <color name="primary_light">#d1c4e9</color>
+    <color name="colorAccent">#2f6c32</color>
+    <color name="colorAccent_light">#884caf50</color>
+    <color name="colorAccentL2">#504caf50</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+
+
+
+</resources>

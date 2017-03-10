@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.migel.proyectointegrador2dambueno.MainActivity"
+    android:background="@drawable/fondo">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/imageView4"
+        android:cropToPadding="false"
+        android:adjustViewBounds="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+    <TextView
+        android:text="@string/formair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/subtitulo"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold" />
+
+
+    <Button
+        android:text="@string/btn_Entrar"
+        android:id="@+id/btnEntrar"
+        style="@style/myButton"
+        android:elevation="10dp"
+        android:onClick="entrar"
+        android:layout_alignLeft="@+id/linear"
+        android:layout_alignStart="@+id/linear"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/green_button" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:layout_below="@+id/subtitulo"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_marginTop="58dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/etRegEmail"
+
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:padding="20dp"
+            android:hint="@string/usuario"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etContraseña"
+        android:hint="@string/contraseña"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@+id/etRegEmail"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:padding="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold|italic"
+        android:fontFamily="cursive"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/nocuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registrar"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textAlignment="center"
+        android:textStyle="normal|italic"
+        android:textAllCaps="false"
+        android:onClick="registrar"
+        android:textSize="18sp"
+        android:layout_below="@+id/btnEntrar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp" />
+</RelativeLayout>

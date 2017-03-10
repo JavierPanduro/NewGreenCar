@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="destinos">
+
+        <item id="defectoDestino">Campus Alcobendas</item>
+
+        <item>Campus Villaviciosa</item>
+
+        <item>Campus de Canarias</item>
+
+        <item>Campus de Valencia</item>
+
+
+    </string-array>
+
+
+    <string-array name="plazas">
+
+        <item id="defectoPlazas">1</item>
+
+        <item>2</item>
+
+        <item>3</item>
+
+        <item>4</item>
+
+        <item>5</item>
+
+        <item>6</item>
+
+
+    </string-array>
+
+
+
+
+
+
+</resources>

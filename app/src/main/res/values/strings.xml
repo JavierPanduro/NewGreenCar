@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Green Car</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="rellenocampos">Rellene todos los campos</string>
+    <string name="caracterescontra">La contraseña debe contener mínimo 8 caracteres</string>
+    <string name="registrok">Registro realizado</string>
+    <string name="registro_ko">Fallo al registrar, intentelo de nuevo</string>
+    <string name="sesionFireOk">Sesion iniciada</string>
+    <string name="sesionFireKO">Usuario y/o contraseña incorrecta</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="btn_Entrar">¡ENTRAR!</string>
+    <string name="nocuenta">¿Aún no tienes cuenta? Regístrate</string>
+    <string name="formair">Tu forma de ir a la universidad</string>
+    <string name="registrar">¡REGÍSTRATE!</string>
+    <string name="lug_salida">Origen</string>
+    <string name="lug_llegada">Destino</string>
+    <string name="fumar">¿Se permite fumar?</string>
+    <string name="plazas_libres">Plazas libres</string>
+    <string name="btn_publicar">¡PUBLICAR!</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+    <string name="sesioninic">Sesión Iniciada</string>
+    <string name="eslogan">Comienza tu aventura!</string>
+    <string name="precio">Precio</string>
+    <string name="origen">Origen</string>
+    <string name="destino">Destino</string>
+    <string name="fumador">Fumador</string>
+    <string name="viajePublicado">Viaje publicado con exito!</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="btn_reservar">reservar!</string>
+    <string name="reservar_pregunta">¿Cuántas plazas desea reservar?</string>
+    <string name="reservar_ok">Viaje reservado correctamente</string>
+    <string name="sesion_cerrada">Sesión cerrada correctamente</string>
+    <string name="volverLogin">Volver a pantalla Login!</string>
+    <string name="borrar">Viaje borrado correctamente</string>
+    <string name="modif">Viaje modificado correctamente</string>
+
+
+
+</resources>

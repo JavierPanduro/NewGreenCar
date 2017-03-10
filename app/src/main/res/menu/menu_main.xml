@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.migel.proyectointegrador2dambueno.MainActivity">
+    <item
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/user"
+        android:id="@+id/action_perfil"
+        android:title="@string/usuario" />
+    <item
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:icon="@drawable/cerrar_sesion"
+        android:id="@+id/action_cerrar_sesion"
+        android:title="@string/cerrar_sesion" />
+</menu>

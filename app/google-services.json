@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "547780166252",
+    "firebase_url": "https://proyectointegrador2dambueno.firebaseio.com",
+    "project_id": "proyectointegrador2dambueno",
+    "storage_bucket": "proyectointegrador2dambueno.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547780166252:android:7bb7aea76b779213",
+        "android_client_info": {
+          "package_name": "com.example.migel.proyectointegrador2dambueno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547780166252-7eq15aqah8jdo7ouihid4mpnvbbg5m29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.migel.proyectointegrador2dambueno",
+            "certificate_hash": "11969555549725056886944A804FA56F506275AC"
+          }
+        },
+        {
+          "client_id": "547780166252-n1g238edp1u192ug7obnfmp4hpijg8tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPgMuGDi_mEKz9v08ApBaLMhDvSCuUFqw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547780166252-n1g238edp1u192ug7obnfmp4hpijg8tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
